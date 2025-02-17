@@ -2,6 +2,6 @@ name: flutter_hooks_lint
 repository: https://github.com/nikaera/flutter_hooks_lint
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.6.0
 dev_dependencies:
   melos: ^6.2.0
