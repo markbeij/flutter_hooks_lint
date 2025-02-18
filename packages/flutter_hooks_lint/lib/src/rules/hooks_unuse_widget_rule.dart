@@ -149,8 +149,10 @@ class _LintFix extends DartFix {
       switch (extendsClause.superclass.toString()) {
         case 'HookWidget':
           convertedClassName = 'StatelessWidget';
+          break;
         case 'HookConsumerWidget':
           convertedClassName = 'ConsumerWidget';
+          break;
         default:
           return;
       }
